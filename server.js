@@ -138,8 +138,7 @@ app.post('/users/signin', function (req, res) {
   // En looping
 
 
-
-
+  // Old code
   // const userData = {
   //   userId: defaultUserId,
   //   password: defaultPassword,

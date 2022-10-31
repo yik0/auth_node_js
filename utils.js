@@ -7,6 +7,7 @@ function generateToken(user) {
   //2. Use the information that are useful in other parts
   if (!user) return null;
 
+  // store user details
   var u = {
     userId: user.userId,
     name: user.name,
@@ -33,6 +34,7 @@ function getCleanUser(user) {
   };
 }
 
+// Token and user details
 module.exports = {
   generateToken,
   getCleanUser
